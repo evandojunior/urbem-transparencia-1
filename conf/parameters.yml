@@ -1,0 +1,26 @@
+parameters:
+    database_host:     postgrehost
+    database_port:     5432
+    database_name:     'urbem-transparencia'
+    database_user:     'docker'
+    database_password: 'docker'
+
+    # Email
+    mailer_transport: smtp
+    mailer_host: smtp.gmail.com
+    mailer_port: 25
+    mailer_encryption: tls
+    mailer_user: urbem@cnm.org.br
+    mailer_password: 'senhao-d-email'
+
+    # Recebimento
+    mail_administrator: 'urbem@cnm.org.br'
+    mail_title: 'Urbem - Manual'
+
+    # Date
+    timezone: 'America/Sao_Paulo'
+    debug: true
+    template: '2017'
+
+    # Storage
+    portal_transparencia_config_prefeitura_info_path: '/var/www/storage/prefeitura.yml'
